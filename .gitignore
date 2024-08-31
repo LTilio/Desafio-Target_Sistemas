@@ -1,24 +1,39 @@
-# Compiled class file
+# Diretórios e arquivos de build
+target/
+build/
+
+# Compiled class files
 *.class
 
-# Log file
+# Arquivos de log
 *.log
 
-# BlueJ files
-*.ctxt
+# Arquivos de IDE
+.settings/
+.project
+.classpath
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
+*.iml
 
-# Package Files #
+# Arquivos de configuração do NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Arquivos gerados por Maven
 *.jar
 *.war
 *.nar
 *.ear
+
+# Arquivos gerados por Gradle
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Arquivos de log da JVM
 hs_err_pid*
-replay_pid*
